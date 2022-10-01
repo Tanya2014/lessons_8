@@ -1,0 +1,478 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+   font-family: "Lato" sans-serif;
+   color: #424551;
+}
+[class*="page"]{
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+
+
+
+
+
+
+.page {
+}
+.page__container {
+}
+.block-one {
+}
+.page__title h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+.page__main-text {
+   line-height: 160%;
+}
+.page__title  {
+   margin-bottom: 48px;
+}
+.page__main-text h3 {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.page__list  li {
+   background: url(../img/icons/check.jpg) 0 6px no-repeat;
+   padding-left: 32px;
+   margin-bottom: 4px;
+
+}
+.page__list {
+   margin-bottom: 150px;
+}
+.block-two {
+}
+.page__course-curator h6 {
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 1px;
+   color: #1E212C;
+   text-transform: uppercase;
+   margin-bottom: 8px;
+}
+.page__course-curator h2 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 16px;
+}
+.page__course-curator p {
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+}
+.page__course-curator {
+   margin-bottom: 32px;
+}
+.page__main-list {
+   margin-bottom: 35px;
+}
+.page__main-list li {
+   margin-bottom: 4px;
+}
+.list-one {
+   background: url(../img/icons/Star\ \(Stroke\).jpg) 0 0 no-repeat;
+   padding-left: 32px;
+}
+.list-two {
+   background: url(../img/icons/Vector.jpg) 0 0 no-repeat;
+   padding-left: 32px;
+}
+.list-three {
+   background: url(../img/icons/Vector\ \(1\).jpg) 0 0 no-repeat;
+   padding-left: 32px;
+}
+.page__block-two {
+   margin-bottom: 100px;
+}
+
+
+/* =========================Експеременти======================== */
+
+.main-text {
+   font-size: 20px;
+   background-color:  #c0c0c0;
+   color: white;
+   max-width: 810px;
+   margin: 0 auto;
+   padding: 20px;
+   margin-bottom: 50px;
+}
+.main-text:hover {
+   background-color: #1E212C;
+   color: rgba(255, 255, 0, 0.76);
+}
+
+.main {
+   background-color: #808000;
+   color: white;
+   font-size: 20px;
+   max-width: 810px;
+   margin: 0 auto;
+   padding: 15px;
+   margin-bottom: 50px;
+}
+.main-info {
+   visibility: hidden;
+   opacity: 0;
+}
+.main:hover .main-info {
+   opacity: 1;
+   visibility: visible;
+}
+
+.main-container {
+   margin-bottom: 50px;
+}
+
+.link {
+   display: inline-block;
+   background-color: gray;
+   height: 45px;
+   line-height: 45px;
+   padding: 0 30px;
+   border-radius: 25px;
+   box-shadow: 0px 5px 35px  rgba(0, 0, 0, 0.637);
+   font-family: "Loto", sans-serif;
+   color: white;
+   text-decoration: underline;
+   font-size: 25px;
+   letter-spacing: 2px;
+   margin-bottom: 50px;
+   margin-right: 50px;
+   margin-left: 350px;
+   text-decoration: none;
+}
+.link span {
+   padding: 0px 30px 0px 0px;
+  background: url(../img/icons/arrow.svg) right 8px no-repeat;
+}
+.link:hover {
+   background-color: blue;
+}
+.link:active {
+   background-color: #1E212C;
+   color: aqua;
+}
+.link:focus {
+   background: #808000;
+   border: 2px solid #05f318;
+}
+.my-link {
+   display: inline-block;
+   background-color: gray;
+   height: 45px;
+   line-height: 45px;
+   padding: 0 30px;
+   border-radius: 25px;
+   box-shadow: 0px 5px 35px  rgba(0, 0, 0, 0.637);
+   font-family: "Loto", sans-serif;
+   color: white;
+   text-decoration: underline;
+   font-size: 25px;
+   letter-spacing: 2px;
+   margin-bottom: 50px;
+   text-decoration: none;
+ 
+}
+.my-link::after {
+   content: url(../img/icons/arrow.svg);
+  padding-left: 10px;
+}
+
+.my-link:hover {
+   background-color: #f106be;
+}
+.my-link:active {
+   background-color: #1E212C;
+   color: #808000;
+}
+.my-link:focus {
+  background: #808000;
+  border: 2px solid #05f318;
+}
+
+
+
+.list-info ul {
+   text-align: center;
+   max-width: 810px;
+   margin: 0 auto;
+}
+.list-info li {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 20px;
+   margin-bottom: 10px;
+   padding-left: 30px;
+   position: relative;
+}
+.list-info li:hover {
+   color: #808000;
+}
+.list-info li::before {
+   content: "" ;
+   position: absolute;
+   top: 8px;
+   left: 220px;
+   width: 5px;
+   height: 5px;
+   /*border-radius: 50%;*/
+   background-color: #05f318;
+   box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+ }
+.list-info {
+   margin-bottom: 50px;
+}
+
+.list-blank {
+   margin-bottom: 100px;
+}
+.list-blank li {
+   text-transform: uppercase;
+   margin-bottom: 5px;
+}
+ul ul {
+   display: none;
+}
+/*ul li:hover ul {
+   display: block;
+}*/
+
+ul a:hover + ul {
+   display: block;
+   
+}
+ul li:hover::before {
+   transition: all 0.8s ease 0s;
+   transform: scale(1.5);
+}
+.block-link {
+   display: inline-block;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.block {
+   background-color: #424551;
+   border-radius: 0px 20px 0px 20px;
+   box-shadow: 1px 1px 15px 5px rgb(255, 166, 0) ;
+   font-size: 20px;
+   color: #c0c0c0;
+   padding: 15px;
+   display: none;
+   margin-bottom: 65px;
+}
+.block:target {
+   display: block;
+}
+
+.text {
+   background-color: #424551;
+   color: white;
+   padding: 15px;
+   line-height: 1.6;
+   margin-bottom: 50px;
+}
+.text p {
+   margin-bottom: 15px;
+}
+.text p:first-child {
+   color: #05f318;
+}
+.text p:last-child {
+   color: #808000;
+}
+.text p:nth-child(odd) {
+   text-transform: uppercase;
+}
+.text p:nth-child(even) {
+   text-decoration: line-through;
+}
+.text p:last-child {
+   margin-bottom: 0;
+}
+.text-one {
+   margin-bottom: 50px;
+   background-color: #1E212C;
+   color: #ffbb00;
+   padding: 15px;
+   font-size: 20px;
+   line-height: 1.6;
+}
+
+.text-one p:first-of-type {
+ color: #f106be;
+}
+.text-one *:first-of-type {
+   text-decoration: line-through;
+}
+.text-two {
+   background-color: #1E212C;
+   padding: 15px;
+   color: white;
+   line-height: 1.6;
+   max-width: 810px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.text-two p:nth-child(1) {
+   text-decoration: line-through;
+}
+.text-two p:nth-child(2) {
+   text-transform: uppercase;
+}
+.text-two p:nth-child(3) {
+   text-shadow: 1px 2px 15px rgb(187, 255, 0);
+}
+.text-two p:nth-child(4) {
+   text-transform: lowercase;
+} 
+/* ========================Гра==================== */
+
+.gam {
+   border: 2px solid rgb(0, 255, 136);
+   width: 600px;
+   height: 600px;
+   margin: 0 auto;
+   position: relative;
+   margin-bottom: 100px;
+
+}
+.start {
+   position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+   text-align: center;
+   background-color: rgb(255, 7, 243);
+   padding-top: 40px;
+   text-transform: uppercase;
+	color: white;
+}
+.one {
+   position: absolute;
+	left: 100px;
+   top: 50px;
+	width: 200px;
+	height: 50px;
+}
+.start:hover .one {
+   background-color: #05f318;
+}
+.two {
+   position: absolute;
+	height: 150px;
+	width: 20px;
+	left: 180px;
+}
+.start:hover 
+.one:hover 
+.two {
+   background-color: #ffbb00;
+}
+.three {
+   position: absolute;
+	width: 140px;
+	height: 23px;
+	top: 126px;
+   left: 20px;
+}
+.start:hover 
+.one:hover 
+.two:hover 
+.three {
+   background-color: aqua;
+}
+.four {
+   position: absolute;
+	width: 15px;
+	height: 100px;
+	top: 22px;
+   left: 124px;
+}
+.start:hover 
+.one:hover 
+.two:hover 
+.three:hover 
+.four {
+   background-color: aquamarine;
+}
+.five {
+   position: absolute;
+	width: 300px;
+	height: 10px;
+	top: 95px;
+   left: -285px;
+}
+.start:hover 
+.one:hover 
+.two:hover 
+.three:hover 
+.four:hover
+.five {
+   background-color: black;
+}
+.six {
+   position: absolute;
+	width: 7px;
+	height: 194px;
+	top: 10px;
+   left: 0px;
+}
+.start:hover 
+.one:hover 
+.two:hover 
+.three:hover 
+.four:hover
+.five:hover
+.six {
+   background-color: #787A80;
+}
+.seven {
+   position: absolute;
+   top: 193px;
+   left: 0px;
+   width: 100px;
+	height: 100px;
+   text-align: center;
+   background-color: rgb(255, 7, 243);
+   padding-top: 40px;
+   text-transform: uppercase;
+	color: white;
+}
